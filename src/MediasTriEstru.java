@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class MediasTriEstru {
     public static void main(String[] args) throws IOException {
 
-        // double media;
+        // quantidade de alunos
         System.out.println("Escreva quantidade de alunos:");
         Scanner sc = new Scanner(System.in);
         int qtd = sc.nextInt();
@@ -41,7 +41,7 @@ public class MediasTriEstru {
 
             //calculo da media/
             media[i]=nota1t[i]+nota2t[i]+nota3t[i];
-            System.out.printf("Media: %.1f\n",media[i]);
+            System.out.printf("Media: %.1f \n",media[i]);
 
             // checagem de aprovação
             if (media[i] >= 60.00 ){ status[i] = "Aprovado"; }
