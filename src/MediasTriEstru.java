@@ -17,7 +17,7 @@ public class MediasTriEstru {
         String[] situacao = new String[qtdAlunos];
         String[] nome = new String[qtdAlunos];
 
-        //estrutura de repetição para imput de notas e checagem de nota valida
+        // estrutura de repetição para imput de notas e checagem de nota valida
         do {
             Scanner scst = new Scanner(System.in);
             System.out.printf("Escreva nome do Aluno: ");
